@@ -1,0 +1,13 @@
+This is my variation on the Konami Code.  I wanted something to keep track of the correct keys and wipe out anything that isn't correct. I used Jquery because it was 4am when I woke up and had a moment of clarity and also becuase we had just learned a ton on Jquery.
+
+This code relies on an empty section tag with the id of kcode within the html file that it is going to effect.
+
+<section id="kcode"></section>
+
+It injects an empty div tag into the DOM whenever a correct key is entered and a correct key is checked against the number of DIVs vs the array of correct keys.  If at anytime and incorrect key is entered, the Section is emptied out.
+
+When all keys are entered, the codeEntered becomes true, and you can add functions to call after line 9 or use the true to trigger something else.
+
+Since this is using jquery and keydown press, it will always be listening.
+
+This was originally used in my Final Group Project for my bootcamp course at Codefellows.  The reason I added this...becuaes I can and I promised myself that I would include it in one of my bootcamp project.
