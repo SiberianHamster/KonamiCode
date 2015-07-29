@@ -6,7 +6,7 @@ $(function() {
     if(event.which == kArray[i]){
       $("#kcode").append("<div class='konamic'></div>");
       if(($("#kcode div").length) == 10){
-        codeEntered = true; // use this to trigger a function
+        $("#somethingcool").append("<div> You Did It, pretend lots of unicorns just flew by</div>"); // use this to trigger a function
       };
     }
     else{
